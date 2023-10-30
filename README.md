@@ -22,6 +22,7 @@ Manuel test genellikle çeşitli senaryoları test etmeyi içerir, örneğin, be
 
 c) Birim testleri otomatikleştirmek önemlidir
 Günlük veya saatlik olarak veya CI/CD (Continuous Integration/Continuous Delivery) süreci aracılığıyla birim testleri otomatik olarak yürütülmeli.
+
 d) Testler arasındaki bağımlılıklardan kaçınılmalıdır
 Birim testleri %100 test kapsamını gerektirmez. Gereken kod kapsamına ulaşmak için yapılandırılmış çok sayıda test yerine daha az, ancak yüksek kaliteli birim testleri kurulmalıdır. Birim testleri, bireysel kod birimlerini doğrulamayı amaçlar, bu nedenle testler arasındaki bağımlılıktan kaçınılmalıdır.
 
