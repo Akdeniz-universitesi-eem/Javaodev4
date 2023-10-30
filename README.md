@@ -12,18 +12,18 @@ Diğerleri: TestNG, SerenityBDD, Mockito, Katalon.
      
   Unit test frameworklerinde uyulması taktirde olumlu sonuçlar alınılabilecek bazı temel kurallar:
 
-a) Okunaklı Basit Testler Yazılır
+a) Okunaklı Basit Testler Yazılır:
 Basit test caseleri yazmak, sürdürmek ve anlamak daha kolaydır. Ayrıca basit testleri yeniden yapılandırmak daha kolaydır. Eğer test karmaşıksa ve bazı kodları yeniden yapılandırmanız gerekiyorsa testler bozulabilir.
 
-b) Her test için bir senaryo test edilir
+b) Her test için bir senaryo test edilir:
 Manuel test genellikle çeşitli senaryoları test etmeyi içerir, örneğin, belirli bir hatanın çözüldüğünü doğrulamak ve tüm ilgili özelliklerin beklenildiği gibi çalıştığını kontrol etmek gibi. Birim testlerin her birinin tek bir senaryoyu kapsadığından her zaman emin olunulmalı, farklı test türlerini ve değişkenleri kontrol edebilirsiniz, ancak her bir birim testin tek bir senaryoyu kapsadığından emin olunmalıdır.
 
 
 
-c) Birim testleri otomatikleştirmek önemlidir
+c) Birim testleri otomatikleştirmek önemlidir:
 Günlük veya saatlik olarak veya CI/CD (Continuous Integration/Continuous Delivery) süreci aracılığıyla birim testleri otomatik olarak yürütülmeli.
 
-d) Testler arasındaki bağımlılıklardan kaçınılmalıdır
+d) Testler arasındaki bağımlılıklardan kaçınılmalıdır:
 Birim testleri %100 test kapsamını gerektirmez. Gereken kod kapsamına ulaşmak için yapılandırılmış çok sayıda test yerine daha az, ancak yüksek kaliteli birim testleri kurulmalıdır. Birim testleri, bireysel kod birimlerini doğrulamayı amaçlar, bu nedenle testler arasındaki bağımlılıktan kaçınılmalıdır.
 
 
